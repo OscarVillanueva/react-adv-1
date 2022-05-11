@@ -29,7 +29,6 @@ export const Navigation = () => {
                   <NavLink 
                     to = { route.path }
                     activeClassName = 'nav-active'
-                    exact
                   >
                     { route.name }
                   </NavLink>
